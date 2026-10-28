@@ -1,0 +1,31 @@
+# Build outputs
+target/
+**/target/
+dist/
+**/dist/
+*.class
+
+# Node dependencies
+node_modules/
+**/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and sensitive data
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# Uploaded certificate proofs
+uploads/certificates/donor_*
+!uploads/certificates/.gitkeep

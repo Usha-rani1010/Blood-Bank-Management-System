@@ -1,0 +1,67 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    background-color: #f8f9fa;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Dashboard */
+
+.dashboard-page {
+    width: 100%;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 10px;
+}
+
+/* Dashboard statistic cards */
+
+.dashboard-page .card-body {
+    padding: 20px;
+}
+
+/* Tables */
+
+.table {
+    vertical-align: middle;
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    .dashboard-page h2 {
+        font-size: 22px;
+    }
+
+}
